@@ -1,0 +1,10 @@
+﻿:root{--bg:#fff;--text:#222;--accent:#0066ff;}
+body{font-family:Arial,sans-serif;background:var(--bg);color:var(--text);margin:0;}
+header,footer{padding:1em;text-align:center;background:#f3f3f3;}
+nav a{margin:0 10px;color:var(--accent);text-decoration:none;}
+.container{padding:20px;max-width:900px;margin:auto;}
+img{max-width:100%;border-radius:10px;}
+.skills-grid,.projects-list{display:grid;gap:10px;}
+.skill,.project{padding:10px;border:1px solid #ddd;border-radius:8px;}
+form input,form textarea{width:100%;padding:8px;margin-bottom:10px;border:1px solid #ccc;border-radius:4px;}
+button{background:var(--accent);color:white;border:none;padding:10px 15px;border-radius:5px;cursor:pointer;}
